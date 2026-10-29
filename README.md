@@ -1,12 +1,12 @@
-PBJ3000 - ESP-Jammer
+PBJ3000 - ESP-dancer
 =================
 
-<img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbjlogo.png" alt="Logo" width="20%" height="20%">
+<img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbjlogo.png" alt="Logo" width="20%" height="20%">
 
-It's a Jammer! And NO, you don't need any additional hardware, an esp32s3 board is enough.
+It's a dancer! And NO, you don't need any additional hardware, an esp32s3 board is enough.
 
 And the longer version is:
-It is a software defined radio jammer based on the ESP32-S3 Wi-Fi radio for Zephyr: I/Q
+It is a software defined radio dancer based on the ESP32-S3 Wi-Fi radio for Zephyr: I/Q
 capture from the receiver, I/Q playback through the transmit DAC. Ported
 from `ESPARGOS esp-sdr <https://github.com/ESPARGOS/esp-sdr>`__ and
 extended; a west manifest repository and Zephyr module laid out like
@@ -17,7 +17,7 @@ extended; a west manifest repository and Zephyr module laid out like
 How do I get it to work?
 --------
 
-Go to <a href="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/releases">Releases</a> and download PBJ3000.bin and PBJ3000.apk.
+Go to <a href="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/releases">Releases</a> and download PBJ3000.bin and PBJ3000.apk.
 Install PBJ3000.bin on your esp32s3 board, just upload image via terminal or with your tool of choice.
 Now download and install PBJ3000.apk on your android smartphone, connect the ESP32S§ with an usb-c cable - start the app, click connect, and you're good to go.
 
@@ -26,16 +26,16 @@ Now download and install PBJ3000.apk on your android smartphone, connect the ESP
 What does it look like?
 --------
 
-<img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj1.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj2.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj3.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj4.jpg" alt="Logo" width="20%" height="20%">
+<img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj1.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj2.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj3.jpg" alt="Logo" width="20%" height="20%"> <img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj4.jpg" alt="Logo" width="20%" height="20%">
 
 <br>
 
 Show it in action!
 --------
 
-<img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/jm.jpg" alt="Logo" width="30%" height="30%">
+<img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/jm.jpg" alt="Logo" width="30%" height="30%">
 
-<img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj6.jpg" alt="Logo" width="40%" height="40%"><img src="https://github.com/pinchepasta/PBJ3000-ESP32-Jammer/blob/main/pbj5.jpg" alt="Logo" width="40%" height="40%"> 
+<img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj6.jpg" alt="Logo" width="40%" height="40%"><img src="https://github.com/pinchepasta/PBJ3000-ESP32-dancer/blob/main/pbj5.jpg" alt="Logo" width="40%" height="40%"> 
 
 I have added 4 magents to mine, to make them hotswappable with my mostly-a-Flipper headless modules based on the exact same board but with an added cc1101.
 You might wanna do a similar thing, or find another creative way to attach them.
